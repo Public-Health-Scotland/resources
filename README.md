@@ -6,5 +6,5 @@ Please feel free to add helpful links to the existing areas or to create an area
 
 Topics covered here:
 - [R](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/R.md)
-- [RAP Companion](https://github.com/NHS-NSS-transforming-publications/resources/blob/davidc92-patch-1/RAP.md)
+- [RAP](https://github.com/NHS-NSS-transforming-publications/resources/blob/davidc92-patch-1/RAP.md)
 - [Version control](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/version-control.md)
