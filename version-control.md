@@ -18,4 +18,3 @@ A long but *very* informative lecture by the author of Happy Git, Jenny Bryan (:
 - [RStudio: Version Control with Git and SVN](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
 - [RStudio: Using Projects](https://support.rstudio.com/hc/en-us/articles/200526207) You will need to get used to using R Projects for version control so this gives a brief introduction.
 - [Writing good commit messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages) A short, but helpful blog post on how to write helpful and informative commit messages.
-
