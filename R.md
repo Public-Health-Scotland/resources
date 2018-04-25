@@ -15,6 +15,7 @@ A few videos from the tidyverse wizard himself:
 
 ## eBooks
 - [R for Data Science](http://r4ds.had.co.nz/)by Garrett Grolemund and Hadley Wickham
+- [Advanced R](http://adv-r.had.co.nz/) by Hadley Wickham
 - [Efficient R programming](https://csgillespie.github.io/efficientR/) by Colin Gillespie
 - [R packages](http://r-pkgs.had.co.nz/) by Hadley Wickham
 
