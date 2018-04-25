@@ -14,7 +14,7 @@ A few videos from the tidyverse wizard himself:
 - EdinbR lecture covering "dplyr", "purrr", "tidyr" and "broom", April 2016: http://edinbr.org/edinbr/2016/05/11/may-Hadley-Update2-PostingTalk.html
 
 ## eBooks
-- [Advanced R](http://adv-r.had.co.nz/) by Hadley Wickham
+- [R for Data Science](http://r4ds.had.co.nz/)by Garrett Grolemund and Hadley Wickham
 - [Efficient R programming](https://csgillespie.github.io/efficientR/) by Colin Gillespie
 - [R packages](http://r-pkgs.had.co.nz/) by Hadley Wickham
 
