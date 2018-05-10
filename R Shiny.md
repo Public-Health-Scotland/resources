@@ -1,6 +1,4 @@
->"Bright and shiny things"
-
-## R Shiny
+## R Shiny :gem:
 [Shiny](https://shiny.rstudio.com/) is an R package developed by [RStudio](https://www.rstudio.com/) for developing interactive visualisations in the form of web apps. These web apps can be hosted on a Shiny server and embedded in webpages via an iFrame. Shiny is a powerful tool that can be used for a wide range of things (e.g. data collection) and isn't limited to visualisations alone. 
 
 ### Helpful Links
