@@ -8,12 +8,12 @@ Topics covered here:
 #### Programming
 - [R](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/R.md)
 - [Shiny](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/R%20Shiny.md)
-- D3 (tba)
+- [D3] (https://github.com/NHS-NSS-transforming-publications/resources/blob/master/D3.md)
 
-#### Analytical Proces
+#### Analytical Process
 - [RAP](https://github.com/NHS-NSS-transforming-publications/resources/blob/davidc92-patch-1/RAP.md)
 - [Version control](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/version-control.md)
 
 #### Agile Methodology
-- Agile (tba)
-- User Engagement (tba)
+- [Agile] (https://github.com/NHS-NSS-transforming-publications/resources/blob/master/Agile.md)
+- [User Engagement] (https://github.com/NHS-NSS-transforming-publications/resources/blob/master/D3.md)
