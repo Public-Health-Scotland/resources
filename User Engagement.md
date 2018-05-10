@@ -11,8 +11,7 @@ As part of the Transforming Publishing Programme, we have conducted a number of 
 - [Human Centred Design Toolkit](https://www.ideo.com/post/design-kit)
 
 # Persona Development
-
-
+- https://uxmastery.com/create-ux-personas/
 
 # Usability Testing
 - [Usability Tips](https://measuringu.com/20-usability-tips/)
