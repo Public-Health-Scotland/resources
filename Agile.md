@@ -10,5 +10,5 @@ Below are some links to further information if you would like to learn more abou
 - [Scaled agile](https://www.scaledagileframework.com/)
 
 There are also a couple of blogs about how the UK Governement Digital Service are using agile which you may find interesting:
-https://www.gov.uk/service-manual/agile-delivery
-https://gds.blog.gov.uk/tag/agile/
+- https://www.gov.uk/service-manual/agile-delivery
+- https://gds.blog.gov.uk/tag/agile/
