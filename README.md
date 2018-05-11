@@ -1,6 +1,6 @@
 # Resources
 
-Welcome to the NSS GitHub resoures repo - a place to share useful resources on all things R, RStudio, RShiny, git, GitHub, D3 and so on! :books:
+Welcome to the NSS GitHub resources repo - a place to share useful resources on all things R, RStudio, RShiny, git, GitHub, D3 and so on! :books: We hope that this repository can be a gateway into learning new software and picking up useful tips and tricks along the way. 
 
 Please feel free to add helpful links to the existing areas or to create an area for a new topic which is not yet covered.
 
