@@ -2,7 +2,7 @@
 >
 >-- Kanye West
 
-The transforming publishing team is working in agile. :ok_woman: You can learn more about the basic philosophy of agile here: http://agilemanifesto.org/.
+Agile methodology is a dynamic teamwork approach to software development. The transforming publishing team is working in agile. :ok_woman: You can learn more about the basic philosophy of agile here: http://agilemanifesto.org/.
 
 Below are some links to further information if you would like to learn more about working in agile, the roles in agile and scaled agile: 
 - [Roles in an agile team](https://www.scrumalliance.org/agile-resources/scrum-roles-demystified)
