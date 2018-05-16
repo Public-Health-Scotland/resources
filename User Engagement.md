@@ -12,6 +12,7 @@ As part of the Transforming Publishing Programme, we have conducted a number of 
 
 # Persona Development
 - [Creating User Personas](https://uxmastery.com/create-ux-personas/)
+- [Techniques for Managing a Usability Test](file:///C:/Users/johnmo04/Downloads/download.pdf)
 
 # Usability Testing
 - [Usability Tips](https://measuringu.com/20-usability-tips/)
