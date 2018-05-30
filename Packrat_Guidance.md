@@ -6,5 +6,4 @@
 ```
 install.packages("packrat")
 install.packages("devtools")
-
 ```
