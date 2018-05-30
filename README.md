@@ -9,6 +9,7 @@ Topics covered here:
 - [R](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/R.md)
 - [Shiny](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/R%20Shiny.md)
 - [D3](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/D3.md)
+- [Package Management](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/Package%20Management.md)
 
 #### Analytical Process
 - [RAP](https://github.com/NHS-NSS-transforming-publications/resources/blob/davidc92-patch-1/RAP.md)
