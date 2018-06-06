@@ -2,7 +2,7 @@
 
 Package management ensures that R packages used within a project are tracked and that if someone else works on the project, they will have the correct versions of the correct packages. This helps mitigate the risk of different versions of packages leading to different users obtaining different results. 
 
-There are several ways of doing this using R using R packages (packrat or checkpoint), distributions of R dedicated to package management (Anaconda) or software such as Docker. Within Transforming Publishing, the main method of package management is packrat. The majority of the guidance contained in this page is for packrat. 
+There are several ways of doing this: using R packages (packrat or checkpoint), distributions of R dedicated to package management (Anaconda) or software such as Docker. Within Transforming Publishing, the main method of package management is packrat. The majority of the guidance contained in this page is for packrat. 
 
 ## Packrat resources
 - [Packrat basics](https://rstudio.github.io/packrat/) - introduction to packrat and its benefits
