@@ -8,8 +8,9 @@ We recommend using the [tidyverse style guide](http://style.tidyverse.org/) by H
 ## RStudio projects
 RStudio projects are a great way to keep your R work well organised, and to enable the use of [version control methods](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/version-control.md) such as Git. A brief introduction to projects by RStudio can be found [here](https://support.rstudio.com/hc/en-us/articles/200526207).
 
-## Tidyverse (i.e. Hadley Wickham)
-A few videos from the tidyverse wizard himself:
+## Tidyverse
+Tidyverse is a suite of R packages for data manipulation and visualisation. The tidyverse style of coding is recommended within the TPP team. There is a very [handy cheatsheet](http://datacamp-community.s3.amazonaws.com/e63a8f6b-2aa3-4006-89e0-badc294b179c) from DataCamp to get started using tidyverse.
+A few videos from the tidyverse wizard (Hadley Wickham) himself:
 - "dplyr" tutorial at useR 2014: https://www.youtube.com/watch?v=8SGif63VW6E
 - EdinbR lecture covering "dplyr", "purrr", "tidyr" and "broom", April 2016: http://edinbr.org/edinbr/2016/05/11/may-Hadley-Update2-PostingTalk.html
 
