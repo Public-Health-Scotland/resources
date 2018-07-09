@@ -12,7 +12,7 @@ Topics covered here:
 - [Package Management](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/Package%20Management.md)
 
 #### Analytical Process
-- [RAP](https://github.com/NHS-NSS-transforming-publications/resources/blob/davidc92-patch-1/RAP.md)
+- [RAP](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/RAP.md)
 - [Version control](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/version-control.md)
 
 #### Agile Methodology
