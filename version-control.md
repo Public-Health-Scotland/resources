@@ -11,6 +11,7 @@ For some background on version control methods in general:
 
 # Git
 Once you are familiar with the GitHub workflow and have had a bit of practice using the integrated buttons in RStudio (see resources below), we would highly recommend trying out the command line. The integrated functionality of Git/GitHub with RStudio is excellent, but it does have some limitations. Learning a few basic git commands will give you a lot more flexibility, for example when using branches. 
+- [Our own gitbash cheat sheet](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance/blob/master/gitbash-cheatsheet.md)
 - [Git command line cheat sheet from GitHub](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 - [Setting Commit Email Address](https://help.github.com/articles/setting-your-commit-email-address-in-git/) - NB: this needs to be done separately within the RStudio terminal if also committing with RStudio
 
@@ -24,3 +25,23 @@ A long but *very* informative lecture by the author of Happy Git, Jenny Bryan (:
 - [RStudio: Version Control with Git and SVN](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
 - [RStudio: Using Projects](https://support.rstudio.com/hc/en-us/articles/200526207) You will need to get used to using R Projects for version control so this gives a brief introduction.
 - [Writing good commit messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages) A short, but helpful blog post on how to write helpful and informative commit messages.
+
+# Advice on "Time travelling" with git
+
+Use `git revert` to undo the changes made in a previous commit (this doesn’t need to be the last one). This doesn’t remove the commit, but adds a new commit that inverts the changes made previously. This is the best way to undo something as it retains all the history and you can do this within a branch and then merge it back into the master. The command is:
+
+`git revert –n <commit ref code>`
+
+The `–n` means "no commit" – so the changes are staged but you  then need to run `git commit –m “commit message”` to commit these changes. You can run git revert without `–n`, however this will open the git bash editor and ask you to enter a commit message - you may prefer to commit manually.
+
+Alternatively, you can use `git reset` to roll back the repo to a specific point in time. However, this deletes commits and so doing this within a branch causes problems when you want to merge back into the master as the branch is *x commits behind*. There are only two situations where using this would be sensible: if you’re working locally and haven’t pushed your commit to GitHub yet or if something major has gone wrong in the repo and a reset is done within the master branch. The following command also gives the option to delete changes altogether or delete commits whilst keeping changes staged or unstaged:
+
+`git reset –hard <commit ref code>`
+
+**Remember**, this will reset the branch to the referenced commit and **delete all changes committed after this point** so :warning: use with caution!!! :warning:
+
+For further reading on time travelling in git:
+
+Git revert: https://www.atlassian.com/git/tutorials/undoing-changes/git-revert
+
+Git reset: https://www.atlassian.com/git/tutorials/undoing-changes/git-reset
