@@ -8,6 +8,7 @@ For some background on version control methods in general:
 # GitHub
 - [Intro to GitHub](https://resources.github.com/webcasts/Intro-to-GitHub/) An introductory video to the GitHub workflow from GitHub themselves.
 - [How to Use Git and GitHub - Udacity](https://eu.udacity.com/course/how-to-use-git-and-github--ud775) A free online course, approximate time to complete is 12 hours.
+- [Conducting a full code review using GitHub](http://astrofrog.github.io/blog/2013/04/10/how-to-conduct-a-full-code-review-on-github/) There is no official way to do this using GitHub, however this handy guide talks through how to do this by creating an empty branch.
 
 # Git
 Once you are familiar with the GitHub workflow and have had a bit of practice using the integrated buttons in RStudio (see resources below), we would highly recommend trying out the command line. The integrated functionality of Git/GitHub with RStudio is excellent, but it does have some limitations. Learning a few basic git commands will give you a lot more flexibility, for example when using branches. 
