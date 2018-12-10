@@ -14,6 +14,7 @@ Topics covered here:
 #### Analytical Process
 - [RAP](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/RAP.md)
 - [Version control](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/version-control.md)
+- [Using git locally](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/Using%20git%20locally.md)
 
 #### Agile Methodology
 - [Agile](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/Agile.md)
