@@ -1,3 +1,5 @@
+Contents?
+
 # Introduction
 
 The [git](https://git-scm.com/) software is used by GitHub in order to provide a [distributed version control and code management system](https://www.atlassian.com/git/tutorials/what-is-version-control), as well as additional features such as facilitating code reviews, logging and assigning issues and controlling access. We recommend that git is used along with a code repository such as GitHub (or Gitea, Gogs, GitLab, etc) and that the [GitHub workflow](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance) is followed. This is particularly important for collaborative projects. However, git can also be used locally on your own machine in order to keep track of your files and folders while you work on a project. This step-by-step guide walks you through how to do this for an R project, but the same principles apply no matter what kind of files you are working with. 
@@ -12,11 +14,11 @@ Git is a freely available open-source software. If you are working for PHI then 
 
 Navigate to the local folder you wish to apply git to, right click and select 'Git Bash Here'. This will open a command-line interface from where you can run all your git commands, plus other standard unix commands (e.g. `cd` to change directory, `ls` to list all items in the current folder, etc):
 
-SCREENSHOT OF GIT BASH
+![](https://i.imgur.com/HJkiqQs.png)
 
 In the command line enter `git init`. Git is now initiliased inside this folder and will track any files and folders within it. 
 
-SCREENSHOT OF GIT BASH WITH GIT INITIALISED
+![](https://i.imgur.com/2kQGtHE.png)
 
 You will notice that you are now on the 'master' branch. For set-up purposes, we will continue to work on the master branch, but note that **it is good practice to do any work in a separate branch which is later merged into the master when ready**.
 
@@ -24,21 +26,25 @@ You will notice that you are now on the 'master' branch. For set-up purposes, we
 
 Create a new R project inside the folder - the easiest way to do this is to open RStudio, select 'New Project...' -> 'Existing Directory' -> select the folder where git is initialised. The 'Git' tab in the Environment pane should become available. You will also be able to access the .gitignore file from within RStudio. For more on .gitignore please see the [TPP GitHub guidance repository](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance).
 
-SCREENSHOTS OF RSTUDIO PROCESS
+![](https://i.imgur.com/h39Sjn1.png)
+
+![](https://i.imgur.com/Vyo0alA.png)
+
+![](https://i.imgur.com/UBaHIp8.png)
 
 ## Step 4: Commit changes
 
 You have now made some changes to the folder and git will recognise this. In Git Bash enter `git status`:
 
-SCREENSHOT OF GIT STATUS
+![](https://i.imgur.com/lu4GDFa.png)
 
 Git has recognised two new untracked files highlighted in red - the .gitignore file and the RStudio project. In order to track these files we must first stage the files using `git add <file name>`. Either stage each file individually (`git add .gitignore` and `git add project.R`), or use `.` to stage all files where changes have been detected by git (`git add .`). **Please use this latter command with caution - it is usually safer to stage each file or folder sepratately**.
 
-SCREENSHOTS OF GIT ADD AND GIT STATUS
+![](https://i.imgur.com/9LDLpuk.png)
 
 Finally, a set of staged changes can be committed using `git commit -m <commit message>`:
 
-SCREENSHOT OF GIT COMMIT
+![](https://i.imgur.com/1bFyg99.png)
 
 Ensure your commit message is [concise, meaningful and written in the imperative mode](https://github.com/erlang/otp/wiki/writing-good-commit-messages). Git has now stored a snapshot of your project folder and its contents at this point in time. In future, you could look back through old versions of the folder via your commits and, if necessary, revert to a previous version.
 
@@ -46,15 +52,15 @@ Ensure your commit message is [concise, meaningful and written in the imperative
 
 One of the key features of git is branches. When it is first created, a branch is simply an exact copy of your original folder and its contents (the master branch). As you work on a branch it will change over time, but the master branch remains the same as it was before the branch was created. This means that you always retain a master copy of your project on the master branch and only merge changes into it when you are satisfied that they are ready. To create a branch use `git branch <name of branch>`:
 
-SCREENSHOT OF GIT BRANCH
+![](https://i.imgur.com/guleKWY.png)
 
 From now on we will refer to this kind of branch as a "working branch". To switch to this new working branch use `git checkout <name of branch>`:
 
-SCREENSHOT OF GIT CHECKOUT
+![](https://i.imgur.com/KkY5mAI.png)
 
 You will see via Git Bash that you are now on your working branch - inside RStudio you will also see the branch name in the Git tab.
 
-SCREENSHOT OF GIT TAB IN RSTUDIO
+![](https://i.imgur.com/m8K5ZEQ.png)
 
 ## Step 6: Make and commit changes on your working branch
 
