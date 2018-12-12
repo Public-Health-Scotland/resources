@@ -96,7 +96,7 @@ Continue working in this way, creating a working branch in order to make a set o
 
 ![](https://i.imgur.com/jjkg6bf.png)
 
-Each commit is assigned a unique
+Each commit is assigned a 40-character id (or 'hash'). This id is completely unique and allows you to identify each commit and what the folder and its contents looked like at a particularly point in time. As stated above, if required you can roll back a project to a previous commit - for more information on time travelling with git see the [version control page](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/version-control.md) in this repository. 
 
 # Top tips
 e.g. commit often, delete branches after merging, write good commit messages, can have multiple branches for fixing multiple features, git init on existing projects, what to do if you needs help
