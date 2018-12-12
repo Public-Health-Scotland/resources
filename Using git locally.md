@@ -66,25 +66,37 @@ You will see via Git Bash that you are now on your working branch - inside RStud
 
 For example, create a new R script inside the R project and add some code, staging and committing as you work.
 
-SCREENSHOTS OF FURTHER CHANGES (CREATING A SCRIPT AND ADDING CODE TO IT)
+![](https://i.imgur.com/KLEUITH.png)
 
-You can see that these changes have not been added to the master branch by switching back and inspecting the contents of the folder. You can also use `git diff <master branch> <working branch>` to preview differences between branches. Below, I have switched back to the master branch and, using this command, can see the differences between the two branches:
+Here I have created a new script inside the R project and set up the script according to the [PHI R project template](https://github.com/Health-SocialCare-Scotland/r-project-structure) in order to start coding:
 
-SCREENSHOT OF GIT DIFF
+![](https://i.imgur.com/cXS6eFx.png)
+
+You can see that these changes have not been added to the master branch by switching back and inspecting the contents of the folder. You can also use `git diff <master branch> <working branch>` to preview differences between branches. Below, I have switched back to the master branch and, using this command, can see the differences between the two branches (additions will be highlighted in green, deletions in red):
+
+![](https://i.imgur.com/0RVQFzP.png)
 
 ## Step 7: Merge changes into the master branch
 
 When you are happy with the changes to your project on your working branch and want them to be included in the master branch, use `git merge <working branch>`:
 
-SCREENSHOT OF GIT MERGE
+![](https://i.imgur.com/M7iN75N.png)
 
 ## Step 8: Delete branch
 
 Now that you are finished with your working branch delete it using `git branch -d <branch name>`:
 
-SCREENSHOT OF GIT BRANCH -D
+![](https://i.imgur.com/gMQIFEk.png)
 
-There is no need to have long-living branches; when you want to make further changes to your project, simply create a new working branch. Deleting working branches after merging will significantly reduce your risk of a merge conflict (see below)
+There is no need to have long-living branches; when you want to make further changes to your project, simply create a new working branch. Deleting working branches after merging will significantly reduce your risk of a merge conflict (see below).
+
+## Step 9: Lather, rinse, repeat!
+
+Continue working in this way, creating a working branch in order to make a set of changes to your code (via `git add` and `git commit`). When you are happy with these changes, merge into the master branch and delete the working branch. To see a history of commits on a certain branch use `git log`:
+
+![](https://i.imgur.com/jjkg6bf.png)
+
+Each commit is assigned a unique
 
 # Top tips
 e.g. commit often, delete branches after merging, write good commit messages, can have multiple branches for fixing multiple features, git init on existing projects, what to do if you needs help
