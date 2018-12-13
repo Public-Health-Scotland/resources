@@ -1,3 +1,5 @@
+# Using git locally
+
 ## Contents
 - [Introduction](#introduction)
 - [Step-by-step guide](#step-by-step-guide)
