@@ -1,4 +1,8 @@
-Contents?
+### Contents
+- [Introduction](#introduction)
+- [Step-by-step guide](#step-by-step-guide)
+- [Top tips](#top-tips)
+- [Further resources](#further-resources)
 
 # Introduction
 
