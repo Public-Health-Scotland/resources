@@ -10,6 +10,8 @@
 
 The [git](https://git-scm.com/) software is used by GitHub in order to provide a [distributed version control and code management system](https://www.atlassian.com/git/tutorials/what-is-version-control), as well as additional features such as facilitating code reviews, logging and assigning issues and controlling access. We recommend that git is used along with a code repository such as GitHub (or Gitea, Gogs, GitLab, etc) and that the [GitHub workflow](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance) is followed. This is particularly important for collaborative projects. However, git can also be used locally on your own machine in order to keep track of your files and folders while you work on a project. This step-by-step guide walks you through how to do this for an R project, but the same principles apply no matter what kind of files you are working with. 
 
+**IMPORTANT:** These instructions should only be used on projects on your local machine, and not on network folders as git will not work properly on these. These instructions are also not intended for collaboration - although collaboration and peer review is an important aspect of using version control, we do not currently have the organisation-wide infrastructure required to host this. In future we may add further instructions for these situations.
+
 # Step-by-step guide
 
 ## Step 1: Install git!
@@ -92,9 +94,11 @@ You can see that these changes have not been added to the master branch by switc
 
 ## Step 8: Merge changes into the master branch
 
-When you are happy with the changes to your project on your working branch and want them to be included in the master branch, use `git merge <working branch>`:
+When you are happy with the changes to your project on your working branch and want them to be included in the master branch, switch back to the master branch and use `git merge <working branch>`:
 
 ![](https://i.imgur.com/M7iN75N.png)
+
+Note that you must switch back to the branch *into which* you want to merge changes.
 
 ## Step 9: Delete branch
 
