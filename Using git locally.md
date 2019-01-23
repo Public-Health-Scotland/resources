@@ -10,9 +10,11 @@
 
 The [git](https://git-scm.com/) software is used by GitHub in order to provide a [distributed version control and code management system](https://www.atlassian.com/git/tutorials/what-is-version-control), as well as additional features such as facilitating code reviews, logging and assigning issues and controlling access. We recommend that git is used along with a code repository such as GitHub (or Gitea, Gogs, GitLab, etc) and that the [GitHub workflow](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance) is followed. This is particularly important for collaborative projects. However, git can also be used locally on your own machine in order to keep track of your files and folders while you work on a project. This step-by-step guide walks you through how to do this for an R project, but the same principles apply no matter what kind of files you are working with. 
 
-**IMPORTANT:** These instructions should only be used on projects on your local machine, and not on network folders as git will not work properly on these. These instructions are also not intended for collaboration - although collaboration and peer review is an important aspect of using version control, we do not currently have the organisation-wide infrastructure required to host this. In future we may add further instructions for these situations.
+**IMPORTANT:** These instructions should **only be used on projects on your local machine or your personal network folder**, and not on shared network folders as RStudio will not integrate with git properly on these. These instructions are also **not intended for collaboration** - although collaboration and peer review is an important aspect of using version control, we do not currently have the organisation-wide infrastructure required to host this on a GitHub-like platform. It is possible to collaborate using git alone, but this requires a very specific set-up in order to work properly, which is not detailed here. In future we may add further instructions for collaborative working.
 
 # Step-by-step guide
+
+Throughout this guide, <> has been used to indicate text that should be edited by the user with your specific details.
 
 ## Step 1: Install git!
 
@@ -38,6 +40,9 @@ You will notice that you are on the 'master' branch. For set-up purposes, we wil
 
 `git config --global user.name <your name>`
 
+You can check the current user details using:
+`git config --global user.email`
+
 ## Step 4: Create a new R project
 
 Create a new R project inside the folder - the easiest way to do this is to open RStudio, select 'New Project...' -> 'Existing Directory' -> select the folder where git is initialised. The 'Git' tab in the RStudio Environment pane should become available. You will also be able to access the .gitignore file from within RStudio. For more on .gitignore please see the [TPP GitHub guidance repository](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance).
@@ -54,7 +59,7 @@ You have now made some changes to the folder and git will recognise this. In Git
 
 ![](https://i.imgur.com/lu4GDFa.png)
 
-Git has recognised two new untracked files highlighted in red - the .gitignore file and the RStudio project. In order to track these files we must first stage them using `git add <file name>`. Either stage each file individually (`git add .gitignore` and `git add project.R`), or use `.` to stage all files where changes have been detected by git (`git add .`). **Please use this latter command with caution - it is usually safer to stage each file or folder separately**.
+Git has recognised two new untracked files highlighted in red - the .gitignore file and the RStudio project. In order to track these files we must first stage them using `git add <file name>`. Either stage each file individually (`git add .gitignore` and `git add project.R`), or use `.` to stage all files where changes have been detected by git (`git add .`). **Please use this latter command with caution - it is usually safer to stage each file or folder separately**. Note that if your file names contain spaces you will need to put single speech marks (e.g. `'file name'`) around it.
 
 ![](https://i.imgur.com/9LDLpuk.png)
 
@@ -80,13 +85,13 @@ Note that these two steps can be done via one command (`git checkout -b <name of
 
 ## Step 7: Make and commit changes on your working branch
 
-For example, create a new R script inside the R project and add some code, staging and committing as you work.
-
-![](https://i.imgur.com/KLEUITH.png)
-
 Here I have created a new script inside the R project and set up the script according to the [PHI R project template](https://github.com/Health-SocialCare-Scotland/r-project-structure) in order to start coding:
 
 ![](https://i.imgur.com/cXS6eFx.png)
+
+This involved creating a new R script inside the R project and adding some code, staging and committing as I worked:
+
+![](https://i.imgur.com/KLEUITH.png)
 
 You can see that these changes have not been added to the master branch by switching back and inspecting the contents of the folder. You can also use `git diff <master branch> <working branch>` to preview differences between branches. Below, I have switched back to the master branch and, using this command, can see the differences between the two branches (additions will be highlighted in green, deletions in red):
 
