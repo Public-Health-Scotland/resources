@@ -1,31 +1,42 @@
 For the sake of our future selves, let's
 >keep calm and apply version control methods
 
+This page is a collection of ebooks, blogs and videos which the Transforming Publishing team have used to learn git and GitHub for version control ourselves. If you are new to version control then you might like to start with the resources marked with an asterisk * first. Using version control software comes with a new set of terminology (commits, branches, and so on... :woman_shrugging:). Don't worry if these seem alien at first - the more you use the tools below, the more these will make sense.
+
 # General
+Version control allows us to keep a record of who edited a file, when and, most importantly, why. Whenever you create a new version of a file and give it a new name (e.g. 'file', 'file v2', 'file final', 'file actual final') you are practicing a form of version control. Version control software allows us to carry out a similar process, but without the need for multiple files, each with a slightly different name. Instead, the software does the heavy lifting to store a snapshot of your file (or files) at chosen points in time - all you need to do is tell it when to take these snapshots and write a short description of what was changed.
+
 For some background on version control methods in general:
-- [Atlassian: What is version control](https://www.atlassian.com/git/tutorials/what-is-version-control)
+- [Atlassian: What is version control*](https://www.atlassian.com/git/tutorials/what-is-version-control)
 
 # GitHub
-- [Intro to GitHub](https://resources.github.com/webcasts/Intro-to-GitHub/) An introductory video to the GitHub workflow from GitHub themselves.
+- [Intro to GitHub*](https://resources.github.com/webcasts/Intro-to-GitHub/) An introductory video to the GitHub workflow from GitHub themselves.
+- [Transforming Publishing GitHub guidance](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance) A short guidance document which the Transforming Publishing team uses, and which we are happy for (and encourage!) others to use.
 - [How to Use Git and GitHub - Udacity](https://eu.udacity.com/course/how-to-use-git-and-github--ud775) A free online course, approximate time to complete is 12 hours.
-- [Conducting a full code review using GitHub](http://astrofrog.github.io/blog/2013/04/10/how-to-conduct-a-full-code-review-on-github/) There is no official way to do this using GitHub, however this handy guide talks through how to do this by creating an empty branch.
-
-# Git
-Once you are familiar with the GitHub workflow and have had a bit of practice using the integrated buttons in RStudio (see resources below), we would highly recommend trying out the command line. The integrated functionality of Git/GitHub with RStudio is excellent, but it does have some limitations. Learning a few basic git commands will give you a lot more flexibility, for example when using branches. 
-- [Our own gitbash cheat sheet](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance/blob/master/gitbash-cheatsheet.md)
-- [Git command line cheat sheet from GitHub](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
-- [Setting Commit Email Address](https://help.github.com/articles/setting-your-commit-email-address-in-git/) - NB: this needs to be done separately within the RStudio terminal if also committing with RStudio
 
 # Git and GitHub with RStudio
-- [DataSurg: RStudio and GitHub](http://www.datasurg.net/2015/07/13/rstudio-and-github/) 
-A blog with straightforward descriptions of the steps required to get set up with Git and GitHub on RStudio.
-- [Happy Git and GitHub for the useR](http://happygitwithr.com/) 
+- [Happy Git and GitHub for the useR*](http://happygitwithr.com/) 
 A comprehensive guide to using Git and GitHub with RStudio, including specific workflow examples and tutorials.
 - [Happy Git and Github for the useR – Tutorial](https://www.rstudio.com/resources/videos/happy-git-and-gihub-for-the-user-tutorial/)
 A long but *very* informative lecture by the author of Happy Git, Jenny Bryan (:raised_hands:) Includes a set-up guide, practical exercises, helpful tips (such as **_commit early and often_** and **_burn it all down_** :fire:) and a section on markdown.
 - [RStudio: Version Control with Git and SVN](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
 - [RStudio: Using Projects](https://support.rstudio.com/hc/en-us/articles/200526207) You will need to get used to using R Projects for version control so this gives a brief introduction.
+
+# gitbash
+Once you are familiar with the GitHub workflow and have had a bit of practice using the integrated buttons in RStudio, we would highly recommend trying out the command line. The integrated functionality of Git/GitHub with RStudio is excellent, but it does have some limitations. Learning a few basic git commands will give you a lot more flexibility, for example when using branches. 
+- [Using git locally](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/Using%20git%20locally.md) Our step-by-step guide to using git for your own work (note that these instructions are not suitable for collaboration).
+- [Our own gitbash cheat sheet](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance/blob/master/gitbash-cheatsheet.md)
+- [Git command line cheat sheet from GitHub](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+- [Setting Commit Email Address](https://help.github.com/articles/setting-your-commit-email-address-in-git/) - NB: this needs to be done separately within the RStudio terminal if also committing from within RStudio
+
+# Improving your version control skills
+For when you are ready to take your version control to the next level :muscle:
 - [Writing good commit messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages) A short, but helpful blog post on how to write helpful and informative commit messages.
+- [5 useful tips for a better commit message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
+- [Conducting a full code review using GitHub](http://astrofrog.github.io/blog/2013/04/10/how-to-conduct-a-full-code-review-on-github/) There is no official way to do this using GitHub, however this handy guide talks through how to do this by creating an empty branch.
+- [A Newbie's Guide to Making A Pull Request (for an R package)](https://tonyelhabr.rbind.io/post/making-first-pull-request/)
+- [How to raise a good pull request](https://www.annashipman.co.uk/jfdi/good-pull-requests.html)
+- [Example of a top notch pull request](https://github.com/alphagov/frontend/pull/784)
 
 # Advice on "Time travelling" with git
 
