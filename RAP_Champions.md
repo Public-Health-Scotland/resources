@@ -2,3 +2,6 @@
 
 ## Tidy Evaluation
 https://ijlyttle.shinyapps.io/tidyeval/
+
+## Snippets
+https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets
