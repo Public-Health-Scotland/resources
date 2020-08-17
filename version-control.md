@@ -11,7 +11,7 @@ For some background on version control methods in general:
 
 # GitHub
 - [Intro to GitHub*](https://resources.github.com/webcasts/Intro-to-GitHub/) An introductory video to the GitHub workflow from GitHub themselves.
-- [Transforming Publishing GitHub guidance](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance) A short guidance document which the Transforming Publishing team uses, and which we are happy for (and encourage!) others to use.
+- [Transforming Publishing GitHub guidance](https://github.com/public-health-scotland/GitHub-guidance) A short guidance document which the Transforming Publishing team uses, and which we are happy for (and encourage!) others to use.
 - [How to Use Git and GitHub - Udacity](https://eu.udacity.com/course/how-to-use-git-and-github--ud775) A free online course, approximate time to complete is 12 hours.
 
 # Git and GitHub with RStudio
@@ -24,8 +24,8 @@ A long but *very* informative lecture by the author of Happy Git, Jenny Bryan (:
 
 # gitbash
 Once you are familiar with the GitHub workflow and have had a bit of practice using the integrated buttons in RStudio, we would highly recommend trying out the command line. The integrated functionality of Git/GitHub with RStudio is excellent, but it does have some limitations. Learning a few basic git commands will give you a lot more flexibility, for example when using branches. 
-- [Using git locally](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/Using%20git%20locally.md) Our step-by-step guide to using git for your own work (note that these instructions are not suitable for collaboration).
-- [Our own gitbash cheat sheet](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance/blob/master/gitbash-cheatsheet.md)
+- [Using git locally](https://github.com/public-health-scotland/resources/blob/master/Using%20git%20locally.md) Our step-by-step guide to using git for your own work (note that these instructions are not suitable for collaboration).
+- [Our own gitbash cheat sheet](https://github.com/public-health-scotland/GitHub-guidance/blob/master/gitbash-cheatsheet.md)
 - [Git command line cheat sheet from GitHub](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 - [Setting Commit Email Address](https://help.github.com/articles/setting-your-commit-email-address-in-git/) - NB: this needs to be done separately within the RStudio terminal if also committing from within RStudio
 
