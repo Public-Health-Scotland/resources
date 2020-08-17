@@ -10,7 +10,7 @@ A Reproducible Analytical Pipeline (RAP) carries out all the steps of the produc
 
 A good place to start is [this short paper](https://www.isdscotland.org/About-ISD/Methodologies/_docs/Reproducible_Analytical_Pipelines_paper_v1.4.pdf) which explains what RAPs are, how to assess whether your work is suitable to RAP and details several levels of RAP which can be selected depending on a number of factors, such as the skill in your team or the available IT infrastructure. The original creators of RAP, Matt Upson and his colleague Matthew Gregory, have produced the [RAP Companion](https://ukgovdatascience.github.io/rap_companion/), which provides a wealth of information about their work and the creation of RAP, and this [free online course](https://www.udemy.com/reproducible-analytical-pipelines/) on Reproducible Analytical Pipelines (RAP) using R. Finally, there is now a Government Statistical Service [RAP website](https://ukgovdatascience.github.io/rap-website/index.html) which hosts useful resources and articles by colleagues across the public sector.
 
-If you are interested in creating a RAP, or implenting some of the best practices involved in RAP into your own work, then please see the [Transforming Publishing team's toolkit](https://github.com/NHS-NSS-transforming-publications/Toolkit) which contains templates and guides to help you do this.
+If you are interested in creating a RAP, or implenting some of the best practices involved in RAP into your own work, then please see the [Transforming Publishing team's toolkit](https://github.com/public-health-scotland/Toolkit) which contains templates and guides to help you do this.
 
 # Further reading and resources on RAP
 
