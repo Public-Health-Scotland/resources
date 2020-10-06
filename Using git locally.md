@@ -45,7 +45,7 @@ You can check the current user details using:
 
 ## Step 4: Create a new R project
 
-Create a new R project inside the folder - the easiest way to do this is to open RStudio, select 'New Project...' -> 'Existing Directory' -> select the folder where git is initialised. The 'Git' tab in the RStudio Environment pane should become available. You will also be able to access the .gitignore file from within RStudio. For more on .gitignore please see the [TPP GitHub guidance repository](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance).
+Create a new R project inside the folder - the easiest way to do this is to open RStudio, select 'New Project...' -> 'Existing Directory' -> select the folder where git is initialised. The 'Git' tab in the RStudio Environment pane should become available. You will also be able to access the .gitignore file from within RStudio. For more on .gitignore please see the [TPP GitHub guidance repository](https://github.com/public-health-scotland/GitHub-guidance).
 
 ![](https://i.imgur.com/h39Sjn1.png)
 
@@ -85,7 +85,7 @@ Note that these two steps can be done via one command (`git checkout -b <name of
 
 ## Step 7: Make and commit changes on your working branch
 
-Here I have created a new script inside the R project and set up the script according to the [PHI R project template](https://github.com/Health-SocialCare-Scotland/r-project-structure) in order to start coding:
+Here I have created a new script inside the R project and set up the script according to the [PHI R project template](https://github.com/public-health-scotland/r-project-structure) in order to start coding:
 
 ![](https://i.imgur.com/cXS6eFx.png)
 
@@ -119,7 +119,7 @@ Continue working in this way, creating a working branch in order to make a set o
 
 ![](https://i.imgur.com/jjkg6bf.png)
 
-Each commit is assigned a 40-character id (or 'hash'). This id is completely unique and allows you to identify each commit and what the folder and its contents looked like at a particularly point in time. As stated above, if required you can roll back a project to a previous commit - for more information on time travelling with git see the [version control page](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/version-control.md) in this repository. 
+Each commit is assigned a 40-character id (or 'hash'). This id is completely unique and allows you to identify each commit and what the folder and its contents looked like at a particularly point in time. As stated above, if required you can roll back a project to a previous commit - for more information on time travelling with git see the [version control page](https://github.com/public-health-scotland/resources/blob/master/version-control.md) in this repository. 
 
 # Top tips
 
@@ -136,7 +136,7 @@ If you need help using git then there are a number of links to helpful online re
 
 # Further resources
 
-- [Git Bash cheatsheet](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance/blob/master/gitbash-cheatsheet.md) for frequently used git commands.
-- [TPP version control page](https://github.com/NHS-NSS-transforming-publications/resources/blob/master/version-control.md) for links to fantastic online blogs, videos and courses on version control in general, git and GitHub specifically, and time travelling with git.
-- [TPP GitHub guidance](https://github.com/NHS-NSS-transforming-publications/GitHub-guidance) for using git with GitHub for collaborative working and best practice/security guidance.
+- [Git Bash cheatsheet](https://github.com/public-health-scotland/GitHub-guidance/blob/master/gitbash-cheatsheet.md) for frequently used git commands.
+- [TPP version control page](https://github.com/public-health-scotland/resources/blob/master/version-control.md) for links to fantastic online blogs, videos and courses on version control in general, git and GitHub specifically, and time travelling with git.
+- [TPP GitHub guidance](https://github.com/public-health-scotland/GitHub-guidance) for using git with GitHub for collaborative working and best practice/security guidance.
 - [A great blog on getting started with git and Git Bash](http://rogerdudler.github.io/git-guide/).
