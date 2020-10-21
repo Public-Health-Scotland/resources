@@ -14,11 +14,11 @@ The [git](https://git-scm.com/) software is used by GitHub in order to provide a
 
 # Step-by-step guide
 
-Throughout this guide, <> has been used to indicate text that should be edited by the user with your specific details.
+Throughout this guide, `<>` has been used to indicate text that should be edited by the user with your specific details.
 
 ## Step 1: Install git!
 
-Git is a freely available open-source software. If you are working for PHI then please contact IT to request that git be made available on your machine for installation. 
+Git is a freely available open-source software. If you are working for PHS then please contact IT to request that git be made available on your machine for installation. 
 
 ## Step 2: Initialise git in your project folder
 
@@ -85,7 +85,7 @@ Note that these two steps can be done via one command (`git checkout -b <name of
 
 ## Step 7: Make and commit changes on your working branch
 
-Here I have created a new script inside the R project and set up the script according to the [PHI R project template](https://github.com/public-health-scotland/r-project-structure) in order to start coding:
+Here I have created a new script inside the R project and set up the script according to the [R project template](https://github.com/public-health-scotland/r-project-structure) in order to start coding:
 
 ![](https://i.imgur.com/cXS6eFx.png)
 
@@ -132,7 +132,7 @@ The following are some tips to keep in mind when working with git:
 - Merge conflicts occur when git cannot merge the same line from one branch into another. We won't cover merge conflicts in detail here, and they are unlikely to occur if you are working by yourself, but be aware that they can happen. If a merge conflict does occur then git will open the Git Bash Editor where you can resolve the conflict by chosing what code should be merged. This editor can be hard to exit so [this blog post](https://code.likeagirl.io/help-i-was-using-git-to-commit-some-code-and-now-the-window-has-changed-and-i-dont-know-what-s-9348a27e145b) may be helpful (the editor can open in other circumstances, such as if you are editing a commit message, so this is a handy link to favourite!). 
 - It is possible to have multiple branches for fixing multiple features or working on different parts of your project, but be aware that this may increase the chance of a merge conflict. 
 
-If you need help using git then there are a number of links to helpful online resources below. Please also feel free to get in touch with the Transforming Publishing team (nss.isdtransformingpublishing@nhs.net) if you have any questions.
+If you need help using git then there are a number of links to helpful online resources below. Please also feel free to get in touch with the Transforming Publishing team (phs.transformingpublishing@phs.scot) if you have any questions.
 
 # Further resources
 
